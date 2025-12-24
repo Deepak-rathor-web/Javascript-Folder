@@ -1,0 +1,8 @@
+1. Print Alternates.
+2.Linear Search
+3.Largest element
+4.Second Largest element
+5.Remove Duplicate from Sorted
+6.Generate All Subarrays
+7.Reverse an array
+8.Rotated an array

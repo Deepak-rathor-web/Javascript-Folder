@@ -1,0 +1,111 @@
+1. Student Grades Analyzer
+Scenario: You are building a system to help teachers analyze student performance.
+
+Assignment:
+
+Take an array of student marks: [85, 90, 78, 92, 88, 76]
+
+Find:
+
+The highest and lowest marks.
+
+The average mark.
+
+List of students who scored above the average.
+
+ 2. Shopping Cart System
+Scenario: A shopping website stores item prices in an array.
+
+Assignment:
+
+Given an array like [299, 499, 150, 250, 100]
+
+Calculate:
+
+Total bill
+
+Total after applying a 10% discount
+
+List of items costing more than ₹200
+
+ 3. Travel Destination Picker
+Scenario: A travel agency wants to filter popular destinations.
+
+Assignment:
+
+Given: ['Paris', 'London', 'Delhi', 'New York', 'Tokyo', 'Delhi']
+
+Remove duplicates.
+
+Sort destinations alphabetically.
+
+Check if a given destination is available in the list.
+
+ 4. Contact List Filter
+Scenario: You’re creating a contact filtering system for a phone.
+
+Assignment:
+
+Given an array of contact names: ['Ravi', 'Anjali', 'Raj', 'Ramesh', 'Ankita']
+
+Create a function to return contacts starting with a specific letter.
+
+Return the number of contacts starting with the letter 'R'.
+
+5. Movie Ratings Manager
+Scenario: A movie app stores ratings given by users.
+
+Assignment:
+
+Input: [4.5, 3.8, 5.0, 4.2, 3.0, 4.9]
+
+Find:
+
+Average rating
+
+Count how many rated above 4
+
+Return sorted list of ratings (descending)
+
+6. Restaurant Menu
+Scenario: A restaurant manages its menu items using an array.
+
+Assignment:
+
+Menu: ['Burger', 'Pizza', 'Fries', 'Pasta', 'Salad']
+
+Add a new item 'Soda' to the end.
+
+Remove 'Fries' from the menu.
+
+Sort and display the updated menu.
+
+7.
+Scenario: A company wants to clean its employee name list.
+
+Data:
+let employees = ['Raj', '', 'Anu', null, ' ', 'Ravi', undefined];
+Tasks:
+
+Remove all falsy or empty-looking values ('', null, undefined, ' ').
+
+Return a cleaned list.
+
+Count how many valid entries were originally there.
+8.
+
+Bill Splitter for a Group
+Scenario: A group of friends splits the cost of items.
+
+let amounts = [120, 340, 150, 90, 200];
+Tasks:
+Find total amount spent.
+Split the bill equally and print each person's share.
+Find who paid the highest and who paid the least.
+
+9. Frequency Counter Without Map
+Scenario: You're counting how many times each number appears.
+let nums = [4, 5, 6, 4, 6, 7, 4, 6, 5];
+Tasks:
+Display the frequency of each unique number using arrays only.
+Show numbers that appear more than once.

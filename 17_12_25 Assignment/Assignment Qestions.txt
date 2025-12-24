@@ -1,0 +1,60 @@
+1.
+An array holds food order objects with dishName, isDelivered, and isVegetarian.
+
+Write a message for each order.
+
+If it’s vegetarian and delivered, print: "Your vegetarian dish [dishName] has been delivered."
+
+If not delivered, print: "Your [dishName] is still being prepared."
+
+2.
+ Travel Plans
+An array of trip plans with properties: destination, isBooked, isInternational.
+For each destination, log if it’s booked and whether it’s international or domestic.
+
+Format the output like: "Trip to [destination] is [booked/not booked] and it's an [international/domestic] trip."
+
+3.
+
+You’re managing a job application tracker with jobTitle, isApplied, and isRemote.
+
+Questions:
+
+Loop through jobs and print the application status.
+
+Include remote/in-office info in the message.
+
+Example: "Applied for remote role: Developer" or "Haven’t applied for the in-office role: Designer"
+
+4.
+A librarian wants to manage the details of books in a library using JavaScript. The system should use only objects, not classes or nested objects. The librarian must be able to perform basic operations such as viewing, searching, and analyzing books in the inventory.
+
+Create 5 book objects with the following properties:
+
+title (string)
+
+author (string)
+
+isbn (string)
+
+price (number)
+
+Store these objects in an array called books.
+
+Apply a 10% discount to each book where the original price is greater than ₹500.
+
+Provide a menu-driven system using prompt() to:
+
+View all books (with updated prices)
+
+Search a book by title
+
+Display the most expensive book
+
+Show all books by a specific author
+
+Count the number of books above a given price
+
+Display the total inventory value
+
+Exit the application

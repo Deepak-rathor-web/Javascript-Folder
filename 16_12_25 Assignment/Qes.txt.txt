@@ -1,0 +1,100 @@
+1.
+
+You are a teacher managing the attendance list for your classroom. You want to develop a simple JavaScript program to handle student names efficiently. 
+The system should use an array of strings to store the names of students. You do not want to use objects or classes—just arrays and functions.
+
+This tool will help you:
+
+Add new students to the attendance list.
+
+View the complete list of students.
+
+Update a student’s name if there was a spelling mistake.
+
+Remove a student from the list if they transferred out.
+
+Search for a student to check if they are enrolled.
+
+Count the total number of students.
+
+Sort the student names alphabetically.
+
+Optionally, clear the entire list for a new year.
+
+Use functions and an array of strings. Do not use objects.
+
+You must read input from the user.
+
+Functions to Implement:
+addStudent(name)
+
+Adds the given student name to the list.
+
+Prevent duplicate entries.
+
+viewStudents()
+
+Displays all student names.
+
+updateStudent(oldName, newName)
+
+Replaces an old name with a new one, if found.
+
+deleteStudent(name)
+
+Removes a student by name.
+
+searchStudent(name)
+
+Checks whether the name exists in the list.
+
+countStudents()
+
+Displays the total number of students.
+
+sortStudents()
+
+Displays the list sorted in ascending order.
+
+clearAllStudents()
+
+Empties the list entirely.
+NOTE: Make it menu driven and read choices from user...
+
+
+2.
+
+A bank wants to develop a simple system to manage account balances privately. The system should allow users to deposit, withdraw, and check their balance, but direct access to the balance variable must be restricted.
+
+Create a function createAccount(initialBalance) that returns an object with the following methods:
+
+deposit(amount)
+
+withdraw(amount)
+
+checkBalance()
+
+The balance variable should not be accessible directly—only via these methods.
+
+Use closures to retain the balance across function calls.
+
+
+
+3.
+
+
+You are asked to build a counter factory where each counter is independent and remembers its own count.
+
+Create a function createCounter() that returns an object with:
+
+increment()
+
+decrement()
+
+reset()
+
+getValue()
+
+Each counter should have its own internal count that persists due to closure.
+
+Test it by creating two counters and showing they maintain their own state.
