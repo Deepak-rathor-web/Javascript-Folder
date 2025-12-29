@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+
+<body>
+    <h1>Form Validation</h1>
+
+    <form onsubmit="return validate()" action="messege.html">
+        <div class="personal">
+            <label for="uname">Name:</label>
+            <input name="personal" id="uname" type="text" placeholder="Enter name"><br><br>
+            <span class="error" id="nameerr"></span><br>
+
+            <label for="udate">Date of Birth:</label>
+            <input name="personal" id="dob" type="date" placeholder="Enter date"><br><br>
+            <span class="error" id="doberr"></span><br>
+
+            <label>Gender:</label><br> Male
+            <input name="gender" value="Male" type="radio"> Female <input name="gender" value="Female" type="radio"> Other
+            <input name="gender" value="Other" type="radio">
+            <span class="error" id="gendererr"></span>
+        </div><br><br>
+
+        <div class="account_detail">
+            <label for="umail">Email:</label>
+            <input name="account" id="umail" type="email"><br><br>
+            <span class="error" id="emailerr"></span>
+
+
+            <label for="userName">UserName:</label>
+            <input name="account" id="userName" type="text"><br><br>
+            <span class="error" id="usererr"></span><br>
+
+            <label for="upass">Password:</label>
+            <input name="account" id="upass" type="password"><br><br>
+            <span class="error" id="passerr"></span><br>
+
+            <label for="cpass">Confirm Password:</label>
+            <input name="account" id="cpass" type="password"><br><br>
+            <span class="error" id="cpasserr"></span>
+
+
+        </div><br><br>
+        <div class="contact_info">
+            <label for="mob">Mobile Number:</label>
+            <input name="contact" id="mob" type="number"><br><br>
+            <span class="error" id="moberr"></span>
+
+            <label>Country:</label><br>
+            <label>India</label>
+            <input type="radio" name="cun">
+
+            <label>USA</label>
+            <input type="radio" name="cun">
+
+            <label>UK</label>
+            <input type="radio" name="cun">
+
+            <label>Canada</label>
+            <input type="radio" name="cun">
+
+            <label>Other</label>
+            <input type="radio" name="cun">
+            <span class="error" id="cuntryerr"></span>
+        </div><br><br>
+
+        <div class="skill">
+            <label>Skills:</label><br><br> JAVA:
+            <input type="checkbox" name="ski"> Python:
+            <input type="checkbox" name="ski"> C:
+            <input type="checkbox" name="ski"> C++:
+            <input type="checkbox" name="ski"> REACT:
+            <input type="checkbox" name="ski"> MERN:
+            <input type="checkbox" name="ski"> Other:
+            <input type="checkbox" name="ski">
+            <span class="error" id="skillerr"></span><br><br>
+
+
+            <label>Experience:</label>
+            <select id="experience">
+                <option value="">Select Experience</option>
+                <option>Fresher</option>
+                <option>1-3 Years</option>
+                <option>3-5 Years</option>
+                <option>5+ Years</option>
+
+            </select><br><br>
+            <span class="error" id="experr"></span>
+
+            <label>Expected Salary</label>
+            <input type="text" id="salary" placeholder="Enter expected salary">
+            <span class="error" id="salaryerr"></span>
+        </div><br><br>
+
+
+
+        <div class="term">
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic distinctio tempore at, corrupti dignissimos commodi laboriosam ipsa error quos veniam facere incidunt placeat, sed in voluptatibus architecto fugit unde facilis?
+            </p>
+            <label>Terms and Condition:</label>
+            <input type="checkbox" id="terms">
+            <span class="error" id="termerr"></span>
+
+        </div>
+
+        <button type="submit" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+    </form>
+
+
+
+<script src="Assignment1.js">
+</script>
+</body>
+</html>

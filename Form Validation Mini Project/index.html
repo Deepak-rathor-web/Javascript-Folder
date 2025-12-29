@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Form Validation </h1>
+     <form onsubmit="return validate()" action="mesge.html">
+    <label for="uname">Name:</label>
+    <input type="text" id="uname" placeholder="Enter your name"><br><br>
+  <label for="upass">password</label>
+    <input type="password" id="upass" placeholder="Enter your password"><br><br>
+    <label for="uconfirm">confirm password</label>
+    <input type="password" id="uconfirm" placeholder="Confirm your password"><br><br>
+    <label for="udate">Date of Birth:</label>
+    <input type="date" id="udate"><br><br>
+      <label>Gender:</label>
+    <input type="radio" name="gender" value="male" id="male"> Male
+    <input type="radio" name="gender" value="female" id="female"> Female
+    <input type="radio" name="gender" value="other"> Other<br><br>
+    Acept Terms and Conditions
+    <input type="checkbox" id="terms"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+
+    <script src="my.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+1.
+Form Validation Using JavaScript and CSS 
+
+You are appointed as a Front-End Developer for an Online Job Portal Website.
+The portal allows users to register and create a job profile before applying for jobs.
+
+To ensure correct data entry and good user experience, the company wants the registration form to be validated using JavaScript and styled using CSS.
+
+All validation error messages must be displayed beside the respective input fields using <span> elements, and the form must not be submitted until all validation rules are satisfied.
+
+Form Description :-
+
+
+The registration form consists of the following sections:
+---------------------------------------------------------
+
+Personal Information
+
+Account Details
+
+Contact Information
+
+Skills & Preferences
+
+Terms and Conditions
+
+Validation Requirements
+
+The following validation rules must be implemented conceptually:
+
+Full Name must not be empty and should contain only alphabets
+
+Date of Birth must be selected and the user must be 18 years or older
+
+Gender must be selected using radio buttons
+
+Email address must be in a valid email format
+
+Username must meet minimum length requirements and should not contain special characters
+
+Password must be strong (minimum length, uppercase letter, number, and special character)
+
+Confirm Password must match the Password
+
+Mobile number must contain exactly 10 digits
+
+Country must be selected from a dropdown list
+
+At least two skills must be selected using checkboxes
+
+Experience level must be selected
+
+Expected salary must be numeric and greater than zero
+
+Terms and Conditions checkbox must be checked before submission
+
+Styling (CSS) Requirements:--
+
+Invalid input fields should be highlighted using red border
+
+Valid input fields should be highlighted using green border
+
+Error messages displayed using <span> should appear in red color
+
+Success messages (if any) should appear in green color
+
+The form layout should be clean, readable, and user-friendly
