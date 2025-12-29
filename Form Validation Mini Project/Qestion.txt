@@ -65,3 +65,45 @@ Error messages displayed using <span> should appear in red color
 Success messages (if any) should appear in green color
 
 The form layout should be clean, readable, and user-friendly
+
+---------------------------------------------------------------------------
+QNO 1:
+
+ Product Feedback Form (Bootstrap)
+
+You are tasked with creating a Product Feedback Form for an e-commerce website. The form must be designed using Bootstrap for a modern and responsive layout.
+
+Form Fields & Requirements:
+---------------------------
+
+Customer Name – Required, letters and spaces only.
+
+Order ID – Required, alphanumeric, exactly 8 characters.
+
+Email – Required, valid email format.
+
+Product Name – Required, letters and spaces only.
+
+Rating – Required, radio buttons (1 to 5 stars).
+
+Feedback Type – Required, dropdown (Complaint, Suggestion, Praise).
+
+Feedback Message – Required, 20–500 characters.
+
+Recommend to Others – Required, radio buttons (Yes/No).
+
+Subscribe to Newsletter – Optional, checkbox.
+
+Submit Button – Triggers validation.
+
+Reset Button – Clears the form.
+
+Validation Requirements:
+
+All fields must be validated using JavaScript.
+
+Display errors next to the respective input using <span> or Bootstrap invalid-feedback.
+
+Prevent form submission if any validation fails.
+
+Use Bootstrap classes (form-control, form-check, btn, etc.) for layout and styling.
